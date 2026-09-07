@@ -1,15 +1,13 @@
-console.log("Mim 3D Game started! 🌸");
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mim 3D Game 🌸</title>
+</head>
+<body>
 
-document.body.innerHTML = `
-  <div style="
-    width:100vw;
-    height:100vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    background:#f8e8f0;
-    font-family:Arial;
-  ">
-    <h1>Mim's 3D World 🌸</h1>
-  </div>
-`;
+  <script type="module" src="./game.js"></script>
+
+</body>
+</html>
